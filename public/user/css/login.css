@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f4f7; /* لون الخلفية الفاتح */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+  }
+  .btn-primary {
+    background-color: #388e3c; /* اللون الأخضر */
+    border-color: #388e3c;
+  }
+  .btn-primary:hover {
+    background-color: #2e7d32; /* لون الأخضر الداكن عند التحويم */
+    border-color: #2e7d32;
+  }
+  .form-check-label, .form-text {
+    color: #0d5711;
+  }
+  .header {
+    text-align: center;
+    color: #388e3c;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .form-label {
+    color: #388e3c;
+    font-weight: bold;
+  }
+  .form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-check-input {
+    margin-top: 6px;
+  }
+  .right-image img, .left-image img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 50%;
+  }
+  .right-image img {
+    top: 5%;
+    right: 4%;
+  }
+  .left-image img {
+    top: 5%;
+    left: 4%;
+  }
+  @media(max-width:991px) {
+    .okay {
+      transform: translateY(16%);
+    }
+  }
